@@ -1,0 +1,32 @@
+{
+  "name": "gulp-easy-starter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run build && npm run deploy",
+    "dev": "gulp",
+    "build": "gulp production",
+    "deploy": "gulp browserSync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JeromeLin/gulp-easy-starter.git"
+  },
+  "author": "jerome.lin@zhongan.com",
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-file-include": "^0.13.7",
+    "gulp-filesize": "0.0.6",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-sequence": "^0.4.4",
+    "gulp-uglify": "^1.5.1",
+    "imagemin-pngquant": "^4.2.0",
+    "require-dir": "^0.3.0"
+  }
+}
