@@ -1,5 +1,5 @@
 # gulp-easy-starter
-可配置化gulp项目
+可配置化gulp项目, 配置文件gulp/config.js
 
 ##安装
 npm install
